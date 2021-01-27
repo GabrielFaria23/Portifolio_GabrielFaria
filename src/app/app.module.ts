@@ -17,7 +17,7 @@ import { FooterComponent } from './footer/footer.component';
     ContactInfoComponent,
     KnowledgeInfoComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule

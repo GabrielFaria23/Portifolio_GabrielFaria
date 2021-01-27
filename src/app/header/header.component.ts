@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
+import { $ } from 'protractor';
 
 @Component({
   selector: 'app-header',
@@ -11,5 +12,5 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
 }

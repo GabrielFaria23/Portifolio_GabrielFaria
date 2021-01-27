@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portifolio';
-  opened: boolean = false;
+  
+  /*innerWidth: any;
+  innerWidthStr: string;
 
-  toggleSidebar(){
-    this.opened = !this.opened;
+  ngOnInit(){
+    this.innerWidth = window.innerWidth;
   }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event){
+    this.innerWidth = window.innerWidth;
+    this.innerWidthStr = this.innerWidth+'px';
+    console.log(this.innerWidthStr);
+    
+  }*/
+
 }

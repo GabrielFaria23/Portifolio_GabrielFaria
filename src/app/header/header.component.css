@@ -3,8 +3,8 @@
 }
 
 .imgLogo{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .imgLogo:hover{
@@ -34,5 +34,9 @@ ul li a:hover{
 .imgRSocial:hover{
     -webkit-filter:opacity(30%);
     transition: 0.1s;
+}
+
+.navbar-collapse{
+    margin-left: 30%;
 }
 

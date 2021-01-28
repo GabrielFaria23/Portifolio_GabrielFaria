@@ -1,7 +1,44 @@
-.sobre{
-    padding-top: 100px;
-    height: 800px;
+.sobre{    
+    height: 1024px;
     width: 100%;
+    padding-top: 100px;
+    padding-right: 500px;
     color: white;
     background-color: #212121;
+}
+
+.myImg{
+    width: 1024px;
+}
+
+section img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+section p{
+    margin-top: 1%;
+    margin-left: 350px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+section{
+    width: 1600px;
+    height: 800px;    
+    margin-top: 2%;
+    border-style: double;
+    border-color: white;    
+}
+
+.fa-github{
+    color: white;
 }

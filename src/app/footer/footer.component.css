@@ -1,0 +1,47 @@
+div{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #212529;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+p{
+    text-align: center;
+    margin: 5px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+i{
+    font-size: 30px;
+}
+
+.imgRSocial{
+    width: 35px;
+    height: 35px;
+}
+
+@media screen and (max-width:620px){
+    p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:440px){
+    p{
+        font-size: 12px;
+        margin: 5px 5px;
+    }
+    .imgRSocial{
+        width: 20px;
+        height: 20px;
+    }
+
+    i{
+        font-size: 20px;
+    }
+}
+

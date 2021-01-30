@@ -1,0 +1,78 @@
+.contato{
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #141414;
+}
+
+section{
+    width: 60%;
+    margin: 0 20%;    
+    min-width: 140px;
+    height: 200px;  
+    background-color: #212121;
+    box-shadow: 5px 5px 5px 5px #0e0e0e;  
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    width: 90%;
+    margin: 1% 5%;
+    min-width: 135px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 1500px){
+    p{
+        font-size: 12px;
+    }
+
+    img{
+        width: 20px;
+        height: 20px;
+    }  
+}
+
+@media screen and (max-width: 800px){
+
+    p{
+        font-size: 12px;
+    }
+
+    img{
+        width: 20px;
+        height: 20px;
+    } 
+}
+
+@media screen and (max-width: 300px){  
+    
+    .contato{
+        height: 450px;
+    }
+
+    section{
+        height: 240px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    
+}

@@ -6,6 +6,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { GitProjectsComponent } from './git-projects/git-projects.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
     GitProjectsComponent,
     HeaderComponent,
     FooterComponent,
+    ContatoComponent,
   ],
   imports: [
     BrowserModule

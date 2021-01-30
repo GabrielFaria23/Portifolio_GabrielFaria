@@ -9,18 +9,21 @@
 section{
     width: 80%;
     margin: 0 10%;
-    min-width: 280px;
+    min-width: 220px;
     height: 800px;    
     margin-top: 2%;
     background-color: #212121;
-    box-shadow: 5px 5px 5px 5px #0e0e0e;  
+    box-shadow: 5px 5px 5px 5px #0e0e0e;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 section img{
-    width: 20%;
+    width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 1% 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section p{
@@ -32,6 +35,9 @@ section p{
     font-size: 18px;
     line-height: 20px;
     min-width: 177px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
 }
 
 h1{
@@ -40,4 +46,34 @@ h1{
 
 .fa-github{
     color: white;
+}
+
+@media screen and (max-width: 1200px){
+    section p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+        line-height: 15px;
+        width: 90%;
+    }   
+}
+
+@media screen and (max-width: 800px){
+    section p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 12px;
+        line-height: 13px;
+        width: 90%;
+    }   
+}
+
+@media screen and (max-width: 400px){
+    section p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 11px;
+        line-height: 11px;
+        width: 90%;
+    }
 }

@@ -1,5 +1,5 @@
 .git{
-    height: 1024px;
+    height: 1100px;
     width: 100%;
     padding-top: 100px;
     color: rgb(255, 255, 255);
@@ -9,11 +9,13 @@
 section{
     width: 80%;
     margin: 0 10%;
-    min-width: 280px;
-    height: 800px;    
+    min-width: 220px;
+    height: 910px;    
     margin-top: 2%;
     background-color: #212121;
-    box-shadow: 5px 5px 5px 5px #0e0e0e;  
+    box-shadow: 5px 5px 5px 5px #0e0e0e; 
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1{
@@ -33,11 +35,97 @@ img:hover{
     width: 90%;
     height: 80%;
     margin: 5% 5%;
-    min-width: 280px;
+    min-width: 20px;
     margin-top: 2%; 
 }
 
 #buttonRepositories{
     width: 50%;
     margin: 0 25%;
+}
+
+@media screen and (max-width: 1250px){
+    .git{
+        height: 750px;
+    }
+
+    section{
+        height: 650px;
+    }
+    
+    #buttonRepositories{
+        width: 50%;
+        margin: 0 25%;
+        font-size: 10px;
+    }  
+    .carousel{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .git{
+        height: 650px;
+    }
+
+    section{
+        height: 500px;
+    }
+    
+    #buttonRepositories{
+        width: 50%;
+        margin: 0 25%;
+        font-size: 10px;
+    }  
+    .carousel{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .git{
+        height: 600px;
+    }
+
+    section{
+        height: 400px;
+    }
+    
+    #buttonRepositories{
+        width: 40%;
+        margin: 0 30%;
+        font-size: 10px;
+    }  
+}
+
+@media screen and (max-width: 520px){
+    .git{
+        height: 500px;
+    }
+
+    section{
+        height: 280px;
+    }
+    
+    #buttonRepositories{
+        width: 40%;
+        margin: 0 30%;
+        font-size: 10px;
+    }  
+}
+
+@media screen and (max-width: 300px){
+    .git{
+        height: 310px;
+    }
+
+    section{
+        height: 210px;
+    }
+    
+    #buttonRepositories{
+        width: 40%;
+        margin: 0 30%;
+        font-size: 10px;
+    }
 }

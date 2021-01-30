@@ -1,13 +1,19 @@
 .git{
-    padding-top: 100px;
-    height: 1110px;
+    height: 1024px;
     width: 100%;
-    color: white;
-    background-color: #212121;
+    padding-top: 100px;
+    color: rgb(255, 255, 255);
+    background-color: #141414;
 }
 
-.responsive{
-    bottom: 100px;
+section{
+    width: 80%;
+    margin: 0 10%;
+    min-width: 280px;
+    height: 800px;    
+    margin-top: 2%;
+    background-color: #212121;
+    box-shadow: 5px 5px 5px 5px #0e0e0e;  
 }
 
 h1{
@@ -25,20 +31,13 @@ img:hover{
 
 .carousel{
     width: 90%;
-    margin: 0 5%;
-    bottom: 5%;
+    height: 80%;
+    margin: 5% 5%;
     min-width: 280px;
     margin-top: 2%; 
 }
 
-@media screen and (max-width: 1400px){
-    .git{
-        height: 900px;
-    }
-}
-
-@media screen and (max-width: 800px){
-    .git{
-        height: 600px;
-    }
+#buttonRepositories{
+    width: 50%;
+    margin: 0 25%;
 }

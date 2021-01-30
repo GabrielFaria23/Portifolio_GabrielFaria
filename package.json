@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "@fortawesome/fontawesome-free": "^5.15.2",
     "angular-cli-ghpages": "^0.6.2",
     "bootstrap": "^5.0.0-beta1",
+    "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "ng-navbar": "^1.1.6",
@@ -50,5 +52,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
   }
 }

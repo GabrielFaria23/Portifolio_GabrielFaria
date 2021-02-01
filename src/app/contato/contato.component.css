@@ -1,6 +1,8 @@
 .contato{
     height: 500px;
     width: 100%;
+
+    min-width: 280px;
     padding-top: 100px;
     color: rgb(255, 255, 255);
     background-color: #141414;
@@ -46,6 +48,10 @@ img{
 
 @media screen and (max-width: 800px){
 
+    section{
+        height: 280px;
+    }
+
     p{
         font-size: 12px;
     }
@@ -57,10 +63,6 @@ img{
 }
 
 @media screen and (max-width: 300px){  
-    
-    .contato{
-        height: 450px;
-    }
 
     section{
         height: 240px;

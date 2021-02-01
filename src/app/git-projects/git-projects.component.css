@@ -1,6 +1,7 @@
 .git{
     height: 1100px;
     width: 100%;
+    min-width: 280px;
     padding-top: 100px;
     color: rgb(255, 255, 255);
     background-color: #141414;

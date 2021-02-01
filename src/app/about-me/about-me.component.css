@@ -27,7 +27,7 @@ section img{
 }
 
 section p{
-    margin: 1%;
+    padding: 5px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
@@ -62,18 +62,34 @@ h1{
     section p{
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 12px;
-        line-height: 13px;
+        font-size: 11px;
+        line-height: 11px;
         width: 90%;
     }   
 }
 
 @media screen and (max-width: 400px){
+
+    section{
+        height: 880px;
+    }
+
     section p{
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 11px;
-        line-height: 11px;
+        font-size: 10px;
+        line-height: 10px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 280px){
+
+    section p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 9px;
+        line-height: 9px;
         width: 90%;
     }
 }
